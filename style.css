@@ -8,6 +8,7 @@ h1 {
 }
 
 #tagline {
+  position: absolute;
   left: 50%;
 }
 
