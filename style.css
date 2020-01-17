@@ -1,3 +1,4 @@
+/* size based on screen size */
 img {
   width: 50%;
   height: 50%;
@@ -7,15 +8,19 @@ h1 {
   font-size: 30px;
 }
 
+/* using id. position relative to other elements */
 #tagline {
   position: relative;
   left: 25%;
 }
 
+/* using class and style several kinds of tags at once */
 .navbar, h1, p {
   color: brown;
 }
 
+/* don't add bullet points to list. 
+   No space around the outside (margin) or inside (padding) */
 ul {
   list-style-type: none;
   margin: 0;
@@ -23,10 +28,12 @@ ul {
   background-color: orange;
 }
 
+/* position horizontal instead of vertical */
 li {
   display: inline;
 }
 
+/* use hex, rgba, or css colour names */
 li:hover {
   background-color: #FFE4C4;
 }
