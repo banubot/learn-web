@@ -1,0 +1,31 @@
+img {
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#tagline {
+  left: 25%;
+}
+
+.navbar, h1, p {
+  color: brown;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+
+li {
+  display: inline;
+}
+
+li:hover {
+  background-color: cream;
+}
